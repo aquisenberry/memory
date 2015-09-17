@@ -1,20 +1,9 @@
 {
  "main": [
   {
-   "id": 0,
-   "player": true,
-   "position": {
-    "x": 100,
-    "y": 100
-   },
-   "size": {
-    "width": 100,
-    "height": 100
-   },
-   "velocity": {
-    "x": 0,
-    "y": 0
-   }
+    "id": 0,
+    "name": "score"
   }
+  
  ]
 }

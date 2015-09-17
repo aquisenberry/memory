@@ -13,7 +13,7 @@
    ]
   },
   {
-   "name": "./systems/simulation/control-player",
+   "name": "./systems/simulation/player-input",
    "scenes": [
     "main"
    ]

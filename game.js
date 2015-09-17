@@ -20,6 +20,7 @@ sounds.loadFromManifest(require("./sounds"));
 
 var systems = require("./systems");
 
+
 var game = new Splat.Game(canvas, animations, entities, images, input, require, scenes, sounds, systems);
 
 function percentLoaded() {

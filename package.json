@@ -1,7 +1,7 @@
 {
-  "name": "sample-game",
-  "version": "0.0.0",
-  "description": "A Sample game",
+  "name": "Splat-Memory",
+  "version": "0.1.0",
+  "description": "Memory",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SplatJS/splatjs-ecs-blank-project.git"
+    "url": "https://github.com/aquisenberry/memory.git"
   },
   "keywords": [],
-  "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
+  "author": "Anthony Quisenberry <anthony.quisenberry01@gmail.com> (http://anthonyquisenberry.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SplatJS/splatjs-ecs-blank-project/issues"
   },
-  "homepage": "https://github.com/SplatJS/splatjs-ecs-blank-project",
+  "homepage": "https://github.com/aquisenberry/memory",
   "devDependencies": {
     "browserify": "^7.0.0",
     "jshint": "^2.5.11"

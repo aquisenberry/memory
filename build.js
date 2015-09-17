@@ -1,5 +1,6 @@
 var browserify = require("browserify");
 var fs = require("fs");
+var header = "/*Splat-ECS Memory*/\n";
 
 var b = browserify();
 b.add("./game.js");
@@ -25,3 +26,9 @@ systems.renderer.forEach(function(system) {
 
 var out = fs.createWriteStream("./index.js");
 b.bundle().pipe(out);
+
+var minout = fs.createWriteStream("./index.min.js");
+minout.write(header, function(err) {
+	b.transform({ global: true, sourcemap:false }, "uglifyify");
+	b.bundle().pipe(minout);
+});
